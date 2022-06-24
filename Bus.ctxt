@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.params=n\ stopage\ time\ date\ dist\ fph
+comment0.target=Bus(java.lang.String,\ java.lang.String[],\ java.lang.String[],\ java.lang.String[],\ java.lang.String[],\ java.lang.String[])
+comment1.params=
+comment1.target=void\ seats()
+comment10.params=len\ upto\ ar
+comment10.target=void\ ticket(int,\ java.lang.String,\ int[][])
+comment11.params=number
+comment11.target=java.lang.String\ numberToWord(int)
+comment2.params=
+comment2.target=void\ bookseats()
+comment3.params=
+comment3.target=java.lang.String\ getname()
+comment4.params=
+comment4.target=java.lang.String\ getstime()
+comment5.params=
+comment5.target=java.lang.String\ getetime()
+comment6.params=r\ c
+comment6.target=void\ editseat(int,\ int)
+comment6.text=void\ remove()throws\ IOException\r\n\ \ \ \ {\r\n\ \ \ \ name\="";\r\n\ \ \ \ m\=10;\r\n\ \ \ \ noseat\=m*m;\r\n\ \ \ \ seat\=new\ String[m][m];\r\n\ \ \ \ for(int\ i\=0;i<m;i++)\r\n\ \ \ \ {\r\n\ \ \ \ for(int\ j\=0;j<m;j++)\r\n\ \ \ \ {\r\n\ \ \ \ seat[i][j]\="\#";\r\n\ \ \ \ }\r\n\ \ \ \ }\r\n}
+comment7.params=
+comment7.target=int\ getseats()
+comment8.params=r\ c
+comment8.target=boolean\ fill(int,\ int)
+comment9.params=
+comment9.target=void\ everything()
+numComments=12
